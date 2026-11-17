@@ -1,0 +1,1 @@
+module.exports={testDir:'./e2e',timeout:90000,workers:1,use:{baseURL:'http://127.0.0.1:5173',headless:true,channel:process.env.PLAYWRIGHT_CHANNEL||(process.platform==='win32'?'msedge':undefined)},reporter:[['list']],outputDir:'tmp/playwright'};

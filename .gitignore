@@ -1,0 +1,14 @@
+node_modules/
+artifacts/
+cache/
+.env
+.ganache-db/
+frontend/dist/
+tmp/
+test-results/
+# Vietnamese companion artifacts remain local; the submission uses English files.
+*.vi.pdf
+*.vi.docx
+*.vi.doc
+*.vi.png
+deliverables/Ke_hoach_NFT_Hardhat_Ganache_1_dem.docx

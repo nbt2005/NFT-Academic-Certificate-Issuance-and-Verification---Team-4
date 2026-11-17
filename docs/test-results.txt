@@ -1,0 +1,36 @@
+
+
+  AcademicCertificate
+    √ mined unauthorized mint reverts without creating record (44ms)
+    √ mined unauthorized revocation keeps certificate active (135ms)
+    √ mined transfer reverts and keeps original ownership (129ms)
+    √ admin role and ERC721/AccessControl interfaces (42ms)
+    √ issues immutable record and indexed event (167ms)
+    √ indexes multiple records, including revoked records (236ms)
+    √ empty student list
+    √ verifies exact hash and detects changed JSON (97ms)
+    √ missing token verification is invalid
+    √ missing token reads revert clearly
+    √ original issuer revokes and preserves NFT (142ms)
+    √ admin revokes (107ms)
+    √ ordinary wallet cannot mint
+    √ admin must also obtain issuer role to mint
+    √ ordinary wallet cannot grant role
+    √ grant/revoke events and removed issuer loses both permissions (233ms)
+    √ other issuer cannot revoke original issuer record (114ms)
+    √ student cannot revoke (73ms)
+    √ cannot revoke nonexistent token
+    √ cannot revoke twice (121ms)
+    √ rejects zero address
+    √ rejects empty URI
+    √ rejects empty hash
+    √ blocks transferFrom (79ms)
+    √ blocks safeTransferFrom(address,address,uint256) (85ms)
+    √ blocks safeTransferFrom(address,address,uint256,bytes) (97ms)
+    √ approval cannot bypass transfer restriction (111ms)
+    √ operator approval cannot bypass transfer restriction (96ms)
+    √ rejecting receiver rolls back record and student index (42ms)
+
+
+  29 passing (8s)
+

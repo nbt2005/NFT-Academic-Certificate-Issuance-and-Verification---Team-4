@@ -1,0 +1,6 @@
+
+Running 1 test using 1 worker
+
+  ok 1 e2e\workflow.spec.js:4:1 › public lookup, role management, mint, tamper, revoke and wallet changes (19.1s)
+
+  1 passed (22.4s)

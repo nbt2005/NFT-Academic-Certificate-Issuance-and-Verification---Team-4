@@ -1,0 +1,68 @@
+[
+  {
+    "optimizer": false,
+    "compiler": "0.8.24+commit.e11b9ed9.Emscripten.clang",
+    "evm": "shanghai",
+    "operation": "deploy",
+    "gasUsed": "2819227",
+    "gasPrice": "8542",
+    "feeWei": "24081837034",
+    "txHash": "0xa9b31ac10e6d80582342f99e16686780a1d31acf0026605aaee9def63d7c580e",
+    "block": 93
+  },
+  {
+    "optimizer": false,
+    "compiler": "0.8.24+commit.e11b9ed9.Emscripten.clang",
+    "evm": "shanghai",
+    "operation": "grantRole",
+    "gasUsed": "52047",
+    "gasPrice": "7676",
+    "feeWei": "399512772",
+    "txHash": "0xed79430dfbec7f9fbd4d94c967e9b1d343a3be1d739eec03929b62815d01a19a",
+    "block": 94
+  },
+  {
+    "optimizer": false,
+    "compiler": "0.8.24+commit.e11b9ed9.Emscripten.clang",
+    "evm": "shanghai",
+    "operation": "mintFirst",
+    "gasUsed": "303520",
+    "gasPrice": "6720",
+    "feeWei": "2039654400",
+    "txHash": "0xf5619be561270429ebac2c1da56b712e007d618f55f978b6922b85f72734adbc",
+    "block": 95
+  },
+  {
+    "optimizer": false,
+    "compiler": "0.8.24+commit.e11b9ed9.Emscripten.clang",
+    "evm": "shanghai",
+    "operation": "mintNext",
+    "gasUsed": "252220",
+    "gasPrice": "5897",
+    "feeWei": "1487341340",
+    "txHash": "0xd54cdd6e85113fda9990ea10790b2767223596af37078a46668e23a58f1e9aa5",
+    "block": 96
+  },
+  {
+    "optimizer": false,
+    "compiler": "0.8.24+commit.e11b9ed9.Emscripten.clang",
+    "evm": "shanghai",
+    "operation": "revoke",
+    "gasUsed": "37898",
+    "gasPrice": "5173",
+    "feeWei": "196046354",
+    "txHash": "0x14c8014f9d6c483c223bb0ddef1536b218feb9b7634d145171a2adb494551d10",
+    "block": 97
+  },
+  {
+    "optimizer": false,
+    "compiler": "0.8.24+commit.e11b9ed9.Emscripten.clang",
+    "evm": "shanghai",
+    "operation": "revokeRole",
+    "gasUsed": "30125",
+    "gasPrice": "4529",
+    "feeWei": "136436125",
+    "txHash": "0x3d3a4c18c9a6f4ec81f8de54a3ad5f328366aa02fffe96006effd8a27f8271e8",
+    "block": 98
+  }
+]

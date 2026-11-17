@@ -1,0 +1,49 @@
+{
+  "name": "nft-academic-certificate-issuance-and-verification",
+  "version": "1.0.0",
+  "description": "Team 4 NFT academic certificate issuance and verification on Ganache",
+  "main": "index.js",
+  "scripts": {
+    "chain": "node scripts/tool.js ganache --server.port 7545 --chain.chainId 1337 --chain.networkId 5777 --chain.hardfork shanghai --wallet.deterministic --database.dbPath ./.ganache-db",
+    "compile": "node scripts/tool.js hardhat compile",
+    "test": "node scripts/tool.js hardhat test",
+    "test:ganache": "node scripts/tool.js hardhat test --network ganache",
+    "deploy": "node scripts/tool.js hardhat run scripts/deploy.js --network ganache",
+    "deploy:gui": "node scripts/deploy-gui.js",
+    "gas": "node scripts/tool.js hardhat run scripts/gas.js --network ganache",
+    "verify": "node scripts/verify.js",
+    "dev": "node scripts/tool.js vite frontend --host 127.0.0.1 --port 5173 --strictPort",
+    "build": "node scripts/tool.js vite build frontend",
+    "test:ui": "node scripts/ui-test.js",
+    "report": "node scripts/report.js",
+    "transactions": "node scripts/transactions.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nbt2005/NFT-Academic-Certificate-Issuance-and-Verification.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/nbt2005/NFT-Academic-Certificate-Issuance-and-Verification/issues"
+  },
+  "homepage": "https://github.com/nbt2005/NFT-Academic-Certificate-Issuance-and-Verification#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "2.0.8",
+    "@nomicfoundation/hardhat-ethers": "3.0.8",
+    "@playwright/test": "1.51.1",
+    "chai": "4.5.0",
+    "ganache": "7.9.2",
+    "hardhat": "2.22.17",
+    "node": "20.19.0",
+    "pdfkit": "0.15.0",
+    "solc": "0.8.24",
+    "vite": "5.4.21"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "5.0.2",
+    "ethers": "6.13.4"
+  }
+}
