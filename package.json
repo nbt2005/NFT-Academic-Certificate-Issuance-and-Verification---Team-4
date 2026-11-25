@@ -20,16 +20,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nbt2005/NFT-Academic-Certificate-Issuance-and-Verification.git"
+    "url": "git+https://github.com/nbt2005/NFT-Academic-Certificate-Issuance-and-Verification---Team-4.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
-    "url": "https://github.com/nbt2005/NFT-Academic-Certificate-Issuance-and-Verification/issues"
+    "url": "https://github.com/nbt2005/NFT-Academic-Certificate-Issuance-and-Verification---Team-4/issues"
   },
-  "homepage": "https://github.com/nbt2005/NFT-Academic-Certificate-Issuance-and-Verification#readme",
+  "homepage": "https://github.com/nbt2005/NFT-Academic-Certificate-Issuance-and-Verification---Team-4#readme",
   "devDependencies": {
     "@nomicfoundation/hardhat-chai-matchers": "2.0.8",
     "@nomicfoundation/hardhat-ethers": "3.0.8",
