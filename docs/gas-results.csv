@@ -1,0 +1,13 @@
+optimizer,compiler,evm,operation,gasUsed,gasPrice,feeWei,txHash,block
+false,0.8.24+commit.e11b9ed9.Emscripten.clang,shanghai,deploy,2819227,8542,24081837034,0xa9b31ac10e6d80582342f99e16686780a1d31acf0026605aaee9def63d7c580e,93
+false,0.8.24+commit.e11b9ed9.Emscripten.clang,shanghai,grantRole,52047,7676,399512772,0xed79430dfbec7f9fbd4d94c967e9b1d343a3be1d739eec03929b62815d01a19a,94
+false,0.8.24+commit.e11b9ed9.Emscripten.clang,shanghai,mintFirst,303520,6720,2039654400,0xf5619be561270429ebac2c1da56b712e007d618f55f978b6922b85f72734adbc,95
+false,0.8.24+commit.e11b9ed9.Emscripten.clang,shanghai,mintNext,252220,5897,1487341340,0xd54cdd6e85113fda9990ea10790b2767223596af37078a46668e23a58f1e9aa5,96
+false,0.8.24+commit.e11b9ed9.Emscripten.clang,shanghai,revoke,37898,5173,196046354,0x14c8014f9d6c483c223bb0ddef1536b218feb9b7634d145171a2adb494551d10,97
+false,0.8.24+commit.e11b9ed9.Emscripten.clang,shanghai,revokeRole,30125,4529,136436125,0x3d3a4c18c9a6f4ec81f8de54a3ad5f328366aa02fffe96006effd8a27f8271e8,98
+true,0.8.24+commit.e11b9ed9.Emscripten.clang,shanghai,deploy,1555029,3965,6165689985,0x096b22987240436d845017ef292e12e31e71925fc15d1672e8a4d5be4fb4ca74,99
+true,0.8.24+commit.e11b9ed9.Emscripten.clang,shanghai,grantRole,51514,3520,181329280,0x88b61d2a1352a42e36cd43e2854bf357b5bcbb540e71b28434f333b0b0adea62,100
+true,0.8.24+commit.e11b9ed9.Emscripten.clang,shanghai,mintFirst,301761,3083,930329163,0x3ea37f4b15704ec2294d8523dfabb453847a1a73ecb19e34141789fd7ecda54b,101
+true,0.8.24+commit.e11b9ed9.Emscripten.clang,shanghai,mintNext,250461,2705,677497005,0x4c0da5fd506547acdd571f35394e4dabc2eb47e77282d024d33cdd141ea7189d,102
+true,0.8.24+commit.e11b9ed9.Emscripten.clang,shanghai,revoke,37302,2374,88554948,0x512b3cdc921eb580c3bf53e6ac6f5a7810f466a558e7e34060b7f2aa45f053dd,103
+true,0.8.24+commit.e11b9ed9.Emscripten.clang,shanghai,revokeRole,29527,2079,61386633,0xc655e7bf65002b9fcd7e61f947abbb06785d0ff32fcea7cba12a2b18f749523d,104
